@@ -8,8 +8,16 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/greetingTV"
+        android:text=""
+        android:textSize="30dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:id="@+id/questionTV"
-        android:text="Pi is equal to 3."
+        android:text="@string/q1text"
         android:textSize="30dp"
         />
 
@@ -22,14 +30,14 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TRUE"
+            android:text="@string/trueText"
             android:id="@+id/trueBTN"
             />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="FALSE"
+            android:text="@string/falseText"
             android:id="@+id/falseBTN"
             />
 
@@ -38,8 +46,8 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SHOW SCORE"
-        android:id="@+id/scoreBTN"
+        android:text="NEXT"
+        android:id="@+id/nextBTN"
         />
 
 

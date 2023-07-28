@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">QuizAppSummer2023</string>
+    <string name="q1text">Pi is equal to 3.</string>
+    <string name="rightMsg">You are correct! Good job!</string>
+    <string name="trueText">TRUE</string>
+    <string name="falseText">FALSE</string>
+    <string name="wrongMsg">You are wrong. Try again.</string>
+    <string name="q2text">Pi is an irrational number</string>
 </resources>
